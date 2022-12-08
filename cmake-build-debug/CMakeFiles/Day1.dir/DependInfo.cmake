@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day2/Day2.cpp" "CMakeFiles/Day1.dir/days/day2/Day2.cpp.o" "gcc" "CMakeFiles/Day1.dir/days/day2/Day2.cpp.o.d"
   "/Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day3/Day3.cpp" "CMakeFiles/Day1.dir/days/day3/Day3.cpp.o" "gcc" "CMakeFiles/Day1.dir/days/day3/Day3.cpp.o.d"
   "/Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day4/Day4.cpp" "CMakeFiles/Day1.dir/days/day4/Day4.cpp.o" "gcc" "CMakeFiles/Day1.dir/days/day4/Day4.cpp.o.d"
+  "/Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/input/Input.cpp" "CMakeFiles/Day1.dir/lib/input/Input.cpp.o" "gcc" "CMakeFiles/Day1.dir/lib/input/Input.cpp.o.d"
   "/Users/sergey.smykovskyi/Personal/adventofcode/Contest/main.cpp" "CMakeFiles/Day1.dir/main.cpp.o" "gcc" "CMakeFiles/Day1.dir/main.cpp.o.d"
   )
 

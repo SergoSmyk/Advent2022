@@ -2,9 +2,8 @@
 // Created by Sergey Smykovskyi on 12/5/22.
 //
 
-#ifndef DAY1_DAY4_H
-#define DAY1_DAY4_H
-
+#ifndef CONTEST_DAY4_H
+#define CONTEST_DAY4_H
 
 #include <iostream>
 #include <fstream>
@@ -50,4 +49,4 @@ public:
 };
 
 
-#endif //DAY1_DAY4_H
+#endif //CONTEST_DAY4_H

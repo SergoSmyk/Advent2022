@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Day1
+# Target rules for targets named Contest
 
 # Build rule for target.
-Day1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Day1
-.PHONY : Day1
+Contest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Contest
+.PHONY : Contest
 
 # fast build rule for target.
-Day1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/build
-.PHONY : Day1/fast
+Contest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/build
+.PHONY : Contest/fast
 
 days/day1/Day1.o: days/day1/Day1.cpp.o
 .PHONY : days/day1/Day1.o
 
 # target to build an object file
 days/day1/Day1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/days/day1/Day1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day1/Day1.cpp.o
 .PHONY : days/day1/Day1.cpp.o
 
 days/day1/Day1.i: days/day1/Day1.cpp.i
@@ -142,7 +142,7 @@ days/day1/Day1.i: days/day1/Day1.cpp.i
 
 # target to preprocess a source file
 days/day1/Day1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/days/day1/Day1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day1/Day1.cpp.i
 .PHONY : days/day1/Day1.cpp.i
 
 days/day1/Day1.s: days/day1/Day1.cpp.s
@@ -150,7 +150,7 @@ days/day1/Day1.s: days/day1/Day1.cpp.s
 
 # target to generate assembly for a file
 days/day1/Day1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/days/day1/Day1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day1/Day1.cpp.s
 .PHONY : days/day1/Day1.cpp.s
 
 days/day2/Day2.o: days/day2/Day2.cpp.o
@@ -158,7 +158,7 @@ days/day2/Day2.o: days/day2/Day2.cpp.o
 
 # target to build an object file
 days/day2/Day2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/days/day2/Day2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day2/Day2.cpp.o
 .PHONY : days/day2/Day2.cpp.o
 
 days/day2/Day2.i: days/day2/Day2.cpp.i
@@ -166,7 +166,7 @@ days/day2/Day2.i: days/day2/Day2.cpp.i
 
 # target to preprocess a source file
 days/day2/Day2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/days/day2/Day2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day2/Day2.cpp.i
 .PHONY : days/day2/Day2.cpp.i
 
 days/day2/Day2.s: days/day2/Day2.cpp.s
@@ -174,7 +174,7 @@ days/day2/Day2.s: days/day2/Day2.cpp.s
 
 # target to generate assembly for a file
 days/day2/Day2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/days/day2/Day2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day2/Day2.cpp.s
 .PHONY : days/day2/Day2.cpp.s
 
 days/day3/Day3.o: days/day3/Day3.cpp.o
@@ -182,7 +182,7 @@ days/day3/Day3.o: days/day3/Day3.cpp.o
 
 # target to build an object file
 days/day3/Day3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/days/day3/Day3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day3/Day3.cpp.o
 .PHONY : days/day3/Day3.cpp.o
 
 days/day3/Day3.i: days/day3/Day3.cpp.i
@@ -190,7 +190,7 @@ days/day3/Day3.i: days/day3/Day3.cpp.i
 
 # target to preprocess a source file
 days/day3/Day3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/days/day3/Day3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day3/Day3.cpp.i
 .PHONY : days/day3/Day3.cpp.i
 
 days/day3/Day3.s: days/day3/Day3.cpp.s
@@ -198,7 +198,7 @@ days/day3/Day3.s: days/day3/Day3.cpp.s
 
 # target to generate assembly for a file
 days/day3/Day3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/days/day3/Day3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day3/Day3.cpp.s
 .PHONY : days/day3/Day3.cpp.s
 
 days/day4/Day4.o: days/day4/Day4.cpp.o
@@ -206,7 +206,7 @@ days/day4/Day4.o: days/day4/Day4.cpp.o
 
 # target to build an object file
 days/day4/Day4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/days/day4/Day4.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day4/Day4.cpp.o
 .PHONY : days/day4/Day4.cpp.o
 
 days/day4/Day4.i: days/day4/Day4.cpp.i
@@ -214,7 +214,7 @@ days/day4/Day4.i: days/day4/Day4.cpp.i
 
 # target to preprocess a source file
 days/day4/Day4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/days/day4/Day4.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day4/Day4.cpp.i
 .PHONY : days/day4/Day4.cpp.i
 
 days/day4/Day4.s: days/day4/Day4.cpp.s
@@ -222,15 +222,87 @@ days/day4/Day4.s: days/day4/Day4.cpp.s
 
 # target to generate assembly for a file
 days/day4/Day4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/days/day4/Day4.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day4/Day4.cpp.s
 .PHONY : days/day4/Day4.cpp.s
+
+days/day5/Day5.o: days/day5/Day5.cpp.o
+.PHONY : days/day5/Day5.o
+
+# target to build an object file
+days/day5/Day5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day5/Day5.cpp.o
+.PHONY : days/day5/Day5.cpp.o
+
+days/day5/Day5.i: days/day5/Day5.cpp.i
+.PHONY : days/day5/Day5.i
+
+# target to preprocess a source file
+days/day5/Day5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day5/Day5.cpp.i
+.PHONY : days/day5/Day5.cpp.i
+
+days/day5/Day5.s: days/day5/Day5.cpp.s
+.PHONY : days/day5/Day5.s
+
+# target to generate assembly for a file
+days/day5/Day5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day5/Day5.cpp.s
+.PHONY : days/day5/Day5.cpp.s
+
+lib/base/Day.o: lib/base/Day.cpp.o
+.PHONY : lib/base/Day.o
+
+# target to build an object file
+lib/base/Day.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/lib/base/Day.cpp.o
+.PHONY : lib/base/Day.cpp.o
+
+lib/base/Day.i: lib/base/Day.cpp.i
+.PHONY : lib/base/Day.i
+
+# target to preprocess a source file
+lib/base/Day.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/lib/base/Day.cpp.i
+.PHONY : lib/base/Day.cpp.i
+
+lib/base/Day.s: lib/base/Day.cpp.s
+.PHONY : lib/base/Day.s
+
+# target to generate assembly for a file
+lib/base/Day.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/lib/base/Day.cpp.s
+.PHONY : lib/base/Day.cpp.s
+
+lib/input/Input.o: lib/input/Input.cpp.o
+.PHONY : lib/input/Input.o
+
+# target to build an object file
+lib/input/Input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/lib/input/Input.cpp.o
+.PHONY : lib/input/Input.cpp.o
+
+lib/input/Input.i: lib/input/Input.cpp.i
+.PHONY : lib/input/Input.i
+
+# target to preprocess a source file
+lib/input/Input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/lib/input/Input.cpp.i
+.PHONY : lib/input/Input.cpp.i
+
+lib/input/Input.s: lib/input/Input.cpp.s
+.PHONY : lib/input/Input.s
+
+# target to generate assembly for a file
+lib/input/Input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/lib/input/Input.cpp.s
+.PHONY : lib/input/Input.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -238,7 +310,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -246,7 +318,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -257,7 +329,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Day1"
+	@echo "... Contest"
 	@echo "... days/day1/Day1.o"
 	@echo "... days/day1/Day1.i"
 	@echo "... days/day1/Day1.s"
@@ -270,6 +342,15 @@ help:
 	@echo "... days/day4/Day4.o"
 	@echo "... days/day4/Day4.i"
 	@echo "... days/day4/Day4.s"
+	@echo "... days/day5/Day5.o"
+	@echo "... days/day5/Day5.i"
+	@echo "... days/day5/Day5.s"
+	@echo "... lib/base/Day.o"
+	@echo "... lib/base/Day.i"
+	@echo "... lib/base/Day.s"
+	@echo "... lib/input/Input.o"
+	@echo "... lib/input/Input.i"
+	@echo "... lib/input/Input.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

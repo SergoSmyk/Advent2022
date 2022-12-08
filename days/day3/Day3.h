@@ -2,8 +2,8 @@
 // Created by Sergey Smykovskyi on 12/5/22.
 //
 
-#ifndef DAY3_DAY3_H
-#define DAY3_DAY3_H
+#ifndef CONTEST_DAY3_H
+#define CONTEST_DAY3_H
 
 #include <iostream>
 #include <fstream>
@@ -27,4 +27,4 @@ private:
 };
 
 
-#endif //DAY3_DAY3_H
+#endif //CONTEST_DAY3_H

@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Day1",
+					"name" : "Contest",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Day1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Day1-Debug-ed8d394b0684aa6ce23d.json",
-					"name" : "Day1",
+					"id" : "Contest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Contest-Debug-b0d1cd871b30341b3dac.json",
+					"name" : "Contest",
 					"projectIndex" : 0
 				}
 			]

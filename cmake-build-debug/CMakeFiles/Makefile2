@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Day1.dir/all
+all: CMakeFiles/Contest.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Day1.dir/clean
+clean: CMakeFiles/Contest.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Day1.dir
+# Target rules for target CMakeFiles/Contest.dir
 
 # All Build rule for target.
-CMakeFiles/Day1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Day1"
-.PHONY : CMakeFiles/Day1.dir/all
+CMakeFiles/Contest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target Contest"
+.PHONY : CMakeFiles/Contest.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Day1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Day1.dir/all
+CMakeFiles/Contest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Contest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Day1.dir/rule
+.PHONY : CMakeFiles/Contest.dir/rule
 
 # Convenience name for target.
-Day1: CMakeFiles/Day1.dir/rule
-.PHONY : Day1
+Contest: CMakeFiles/Contest.dir/rule
+.PHONY : Contest
 
 # clean rule for target.
-CMakeFiles/Day1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1.dir/build.make CMakeFiles/Day1.dir/clean
-.PHONY : CMakeFiles/Day1.dir/clean
+CMakeFiles/Contest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/clean
+.PHONY : CMakeFiles/Contest.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

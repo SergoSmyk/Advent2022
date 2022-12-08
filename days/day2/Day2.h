@@ -2,12 +2,11 @@
 // Created by Sergey Smykovskyi on 12/5/22.
 //
 
-#ifndef DAY2_DAY2_H
-#define DAY2_DAY2_H
+#ifndef CONTEST_DAY2_H
+#define CONTEST_DAY2_H
 
 #include <iostream>
 #include <fstream>
-#include <string>
 #include <vector>
 #include <map>
 
@@ -55,4 +54,4 @@ private:
 };
 
 
-#endif //DAY2_DAY2_H
+#endif //CONTEST_DAY2_H

@@ -102,6 +102,12 @@
 		<Unit filename="/Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day4/Day4.h">
 			<Option target="Day1"/>
 		</Unit>
+		<Unit filename="/Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/input/Input.cpp">
+			<Option target="Day1"/>
+		</Unit>
+		<Unit filename="/Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/input/Input.h">
+			<Option target="Day1"/>
+		</Unit>
 		<Unit filename="/Users/sergey.smykovskyi/Personal/adventofcode/Contest/main.cpp">
 			<Option target="Day1"/>
 		</Unit>

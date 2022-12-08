@@ -3,12 +3,15 @@
 #include "days/day2/Day2.h"
 #include "days/day3/Day3.h"
 #include "days/day4/Day4.h"
+#include "days/day5/Day5.h"
 
 using namespace std;
 
 int main() {
-    Day4* day = new Day4();
-    day ->findResult();
+    Day5* part1 = new Day5();
+    part1 ->findResultPart1();
+    Day5* part2 = new Day5();
+    part2 ->findResultPart2();
 
     return 0;
 }

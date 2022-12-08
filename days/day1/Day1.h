@@ -1,8 +1,8 @@
 //
 // Created by Sergey Smykovskyi on 12/5/22.
 //
-#ifndef DAY1_DAY1_H
-#define DAY1_DAY1_H
+#ifndef CONTEST_DAY1_H
+#define CONTEST_DAY1_H
 
 #include <iostream>
 #include <fstream>
@@ -26,4 +26,4 @@ private:
 };
 
 
-#endif //DAY1_DAY1_H
+#endif //CONTEST_DAY1_H
