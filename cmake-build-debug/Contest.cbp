@@ -78,12 +78,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/Day7.cpp">
-			<Option target="Contest"/>
-		</Unit>
-		<Unit filename="/Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/Day7.h">
-			<Option target="Contest"/>
-		</Unit>
 		<Unit filename="/Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day1/Day1.cpp">
 			<Option target="Contest"/>
 		</Unit>
@@ -118,6 +112,12 @@
 			<Option target="Contest"/>
 		</Unit>
 		<Unit filename="/Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day6/Day6.h">
+			<Option target="Contest"/>
+		</Unit>
+		<Unit filename="/Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day7/Day7.cpp">
+			<Option target="Contest"/>
+		</Unit>
+		<Unit filename="/Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day7/Day7.h">
 			<Option target="Contest"/>
 		</Unit>
 		<Unit filename="/Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/base/Day.cpp">

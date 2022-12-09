@@ -1,8 +1,8 @@
-CMakeFiles/Contest.dir/days/day6/Day6.cpp.o: \
-  /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day6/Day6.cpp \
-  /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day6/Day6.h \
-  /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day6/../../lib/base/Day.h \
-  /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day6/../../lib/base/../../lib/input/Input.h \
+CMakeFiles/Contest.dir/days/day7/Day7.cpp.o: \
+  /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day7/Day7.cpp \
+  /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day7/Day7.h \
+  /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day7/../../lib/base/Day.h \
+  /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day7/../../lib/base/../../lib/input/Input.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__config_site \

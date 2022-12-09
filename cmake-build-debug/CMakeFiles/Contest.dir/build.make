@@ -83,10 +83,38 @@ CMakeFiles/Contest.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contest.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergey.smykovskyi/Personal/adventofcode/Contest/main.cpp -o CMakeFiles/Contest.dir/main.cpp.s
 
+CMakeFiles/Contest.dir/lib/input/Input.cpp.o: CMakeFiles/Contest.dir/flags.make
+CMakeFiles/Contest.dir/lib/input/Input.cpp.o: /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/input/Input.cpp
+CMakeFiles/Contest.dir/lib/input/Input.cpp.o: CMakeFiles/Contest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Contest.dir/lib/input/Input.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Contest.dir/lib/input/Input.cpp.o -MF CMakeFiles/Contest.dir/lib/input/Input.cpp.o.d -o CMakeFiles/Contest.dir/lib/input/Input.cpp.o -c /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/input/Input.cpp
+
+CMakeFiles/Contest.dir/lib/input/Input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Contest.dir/lib/input/Input.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/input/Input.cpp > CMakeFiles/Contest.dir/lib/input/Input.cpp.i
+
+CMakeFiles/Contest.dir/lib/input/Input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contest.dir/lib/input/Input.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/input/Input.cpp -o CMakeFiles/Contest.dir/lib/input/Input.cpp.s
+
+CMakeFiles/Contest.dir/lib/base/Day.cpp.o: CMakeFiles/Contest.dir/flags.make
+CMakeFiles/Contest.dir/lib/base/Day.cpp.o: /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/base/Day.cpp
+CMakeFiles/Contest.dir/lib/base/Day.cpp.o: CMakeFiles/Contest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Contest.dir/lib/base/Day.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Contest.dir/lib/base/Day.cpp.o -MF CMakeFiles/Contest.dir/lib/base/Day.cpp.o.d -o CMakeFiles/Contest.dir/lib/base/Day.cpp.o -c /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/base/Day.cpp
+
+CMakeFiles/Contest.dir/lib/base/Day.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Contest.dir/lib/base/Day.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/base/Day.cpp > CMakeFiles/Contest.dir/lib/base/Day.cpp.i
+
+CMakeFiles/Contest.dir/lib/base/Day.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contest.dir/lib/base/Day.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/base/Day.cpp -o CMakeFiles/Contest.dir/lib/base/Day.cpp.s
+
 CMakeFiles/Contest.dir/days/day1/Day1.cpp.o: CMakeFiles/Contest.dir/flags.make
 CMakeFiles/Contest.dir/days/day1/Day1.cpp.o: /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day1/Day1.cpp
 CMakeFiles/Contest.dir/days/day1/Day1.cpp.o: CMakeFiles/Contest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Contest.dir/days/day1/Day1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Contest.dir/days/day1/Day1.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Contest.dir/days/day1/Day1.cpp.o -MF CMakeFiles/Contest.dir/days/day1/Day1.cpp.o.d -o CMakeFiles/Contest.dir/days/day1/Day1.cpp.o -c /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day1/Day1.cpp
 
 CMakeFiles/Contest.dir/days/day1/Day1.cpp.i: cmake_force
@@ -100,7 +128,7 @@ CMakeFiles/Contest.dir/days/day1/Day1.cpp.s: cmake_force
 CMakeFiles/Contest.dir/days/day2/Day2.cpp.o: CMakeFiles/Contest.dir/flags.make
 CMakeFiles/Contest.dir/days/day2/Day2.cpp.o: /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day2/Day2.cpp
 CMakeFiles/Contest.dir/days/day2/Day2.cpp.o: CMakeFiles/Contest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Contest.dir/days/day2/Day2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Contest.dir/days/day2/Day2.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Contest.dir/days/day2/Day2.cpp.o -MF CMakeFiles/Contest.dir/days/day2/Day2.cpp.o.d -o CMakeFiles/Contest.dir/days/day2/Day2.cpp.o -c /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day2/Day2.cpp
 
 CMakeFiles/Contest.dir/days/day2/Day2.cpp.i: cmake_force
@@ -114,7 +142,7 @@ CMakeFiles/Contest.dir/days/day2/Day2.cpp.s: cmake_force
 CMakeFiles/Contest.dir/days/day3/Day3.cpp.o: CMakeFiles/Contest.dir/flags.make
 CMakeFiles/Contest.dir/days/day3/Day3.cpp.o: /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day3/Day3.cpp
 CMakeFiles/Contest.dir/days/day3/Day3.cpp.o: CMakeFiles/Contest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Contest.dir/days/day3/Day3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Contest.dir/days/day3/Day3.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Contest.dir/days/day3/Day3.cpp.o -MF CMakeFiles/Contest.dir/days/day3/Day3.cpp.o.d -o CMakeFiles/Contest.dir/days/day3/Day3.cpp.o -c /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day3/Day3.cpp
 
 CMakeFiles/Contest.dir/days/day3/Day3.cpp.i: cmake_force
@@ -128,7 +156,7 @@ CMakeFiles/Contest.dir/days/day3/Day3.cpp.s: cmake_force
 CMakeFiles/Contest.dir/days/day4/Day4.cpp.o: CMakeFiles/Contest.dir/flags.make
 CMakeFiles/Contest.dir/days/day4/Day4.cpp.o: /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day4/Day4.cpp
 CMakeFiles/Contest.dir/days/day4/Day4.cpp.o: CMakeFiles/Contest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Contest.dir/days/day4/Day4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Contest.dir/days/day4/Day4.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Contest.dir/days/day4/Day4.cpp.o -MF CMakeFiles/Contest.dir/days/day4/Day4.cpp.o.d -o CMakeFiles/Contest.dir/days/day4/Day4.cpp.o -c /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day4/Day4.cpp
 
 CMakeFiles/Contest.dir/days/day4/Day4.cpp.i: cmake_force
@@ -139,24 +167,10 @@ CMakeFiles/Contest.dir/days/day4/Day4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contest.dir/days/day4/Day4.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day4/Day4.cpp -o CMakeFiles/Contest.dir/days/day4/Day4.cpp.s
 
-CMakeFiles/Contest.dir/lib/input/Input.cpp.o: CMakeFiles/Contest.dir/flags.make
-CMakeFiles/Contest.dir/lib/input/Input.cpp.o: /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/input/Input.cpp
-CMakeFiles/Contest.dir/lib/input/Input.cpp.o: CMakeFiles/Contest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Contest.dir/lib/input/Input.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Contest.dir/lib/input/Input.cpp.o -MF CMakeFiles/Contest.dir/lib/input/Input.cpp.o.d -o CMakeFiles/Contest.dir/lib/input/Input.cpp.o -c /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/input/Input.cpp
-
-CMakeFiles/Contest.dir/lib/input/Input.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Contest.dir/lib/input/Input.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/input/Input.cpp > CMakeFiles/Contest.dir/lib/input/Input.cpp.i
-
-CMakeFiles/Contest.dir/lib/input/Input.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contest.dir/lib/input/Input.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/input/Input.cpp -o CMakeFiles/Contest.dir/lib/input/Input.cpp.s
-
 CMakeFiles/Contest.dir/days/day5/Day5.cpp.o: CMakeFiles/Contest.dir/flags.make
 CMakeFiles/Contest.dir/days/day5/Day5.cpp.o: /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day5/Day5.cpp
 CMakeFiles/Contest.dir/days/day5/Day5.cpp.o: CMakeFiles/Contest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Contest.dir/days/day5/Day5.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Contest.dir/days/day5/Day5.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Contest.dir/days/day5/Day5.cpp.o -MF CMakeFiles/Contest.dir/days/day5/Day5.cpp.o.d -o CMakeFiles/Contest.dir/days/day5/Day5.cpp.o -c /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day5/Day5.cpp
 
 CMakeFiles/Contest.dir/days/day5/Day5.cpp.i: cmake_force
@@ -166,20 +180,6 @@ CMakeFiles/Contest.dir/days/day5/Day5.cpp.i: cmake_force
 CMakeFiles/Contest.dir/days/day5/Day5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contest.dir/days/day5/Day5.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day5/Day5.cpp -o CMakeFiles/Contest.dir/days/day5/Day5.cpp.s
-
-CMakeFiles/Contest.dir/lib/base/Day.cpp.o: CMakeFiles/Contest.dir/flags.make
-CMakeFiles/Contest.dir/lib/base/Day.cpp.o: /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/base/Day.cpp
-CMakeFiles/Contest.dir/lib/base/Day.cpp.o: CMakeFiles/Contest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Contest.dir/lib/base/Day.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Contest.dir/lib/base/Day.cpp.o -MF CMakeFiles/Contest.dir/lib/base/Day.cpp.o.d -o CMakeFiles/Contest.dir/lib/base/Day.cpp.o -c /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/base/Day.cpp
-
-CMakeFiles/Contest.dir/lib/base/Day.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Contest.dir/lib/base/Day.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/base/Day.cpp > CMakeFiles/Contest.dir/lib/base/Day.cpp.i
-
-CMakeFiles/Contest.dir/lib/base/Day.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contest.dir/lib/base/Day.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergey.smykovskyi/Personal/adventofcode/Contest/lib/base/Day.cpp -o CMakeFiles/Contest.dir/lib/base/Day.cpp.s
 
 CMakeFiles/Contest.dir/days/day6/Day6.cpp.o: CMakeFiles/Contest.dir/flags.make
 CMakeFiles/Contest.dir/days/day6/Day6.cpp.o: /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day6/Day6.cpp
@@ -195,46 +195,46 @@ CMakeFiles/Contest.dir/days/day6/Day6.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contest.dir/days/day6/Day6.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day6/Day6.cpp -o CMakeFiles/Contest.dir/days/day6/Day6.cpp.s
 
-CMakeFiles/Contest.dir/days/Day7.cpp.o: CMakeFiles/Contest.dir/flags.make
-CMakeFiles/Contest.dir/days/Day7.cpp.o: /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/Day7.cpp
-CMakeFiles/Contest.dir/days/Day7.cpp.o: CMakeFiles/Contest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Contest.dir/days/Day7.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Contest.dir/days/Day7.cpp.o -MF CMakeFiles/Contest.dir/days/Day7.cpp.o.d -o CMakeFiles/Contest.dir/days/Day7.cpp.o -c /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/Day7.cpp
+CMakeFiles/Contest.dir/days/day7/Day7.cpp.o: CMakeFiles/Contest.dir/flags.make
+CMakeFiles/Contest.dir/days/day7/Day7.cpp.o: /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day7/Day7.cpp
+CMakeFiles/Contest.dir/days/day7/Day7.cpp.o: CMakeFiles/Contest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Contest.dir/days/day7/Day7.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Contest.dir/days/day7/Day7.cpp.o -MF CMakeFiles/Contest.dir/days/day7/Day7.cpp.o.d -o CMakeFiles/Contest.dir/days/day7/Day7.cpp.o -c /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day7/Day7.cpp
 
-CMakeFiles/Contest.dir/days/Day7.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Contest.dir/days/Day7.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/Day7.cpp > CMakeFiles/Contest.dir/days/Day7.cpp.i
+CMakeFiles/Contest.dir/days/day7/Day7.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Contest.dir/days/day7/Day7.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day7/Day7.cpp > CMakeFiles/Contest.dir/days/day7/Day7.cpp.i
 
-CMakeFiles/Contest.dir/days/Day7.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contest.dir/days/Day7.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/Day7.cpp -o CMakeFiles/Contest.dir/days/Day7.cpp.s
+CMakeFiles/Contest.dir/days/day7/Day7.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contest.dir/days/day7/Day7.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day7/Day7.cpp -o CMakeFiles/Contest.dir/days/day7/Day7.cpp.s
 
 # Object files for target Contest
 Contest_OBJECTS = \
 "CMakeFiles/Contest.dir/main.cpp.o" \
+"CMakeFiles/Contest.dir/lib/input/Input.cpp.o" \
+"CMakeFiles/Contest.dir/lib/base/Day.cpp.o" \
 "CMakeFiles/Contest.dir/days/day1/Day1.cpp.o" \
 "CMakeFiles/Contest.dir/days/day2/Day2.cpp.o" \
 "CMakeFiles/Contest.dir/days/day3/Day3.cpp.o" \
 "CMakeFiles/Contest.dir/days/day4/Day4.cpp.o" \
-"CMakeFiles/Contest.dir/lib/input/Input.cpp.o" \
 "CMakeFiles/Contest.dir/days/day5/Day5.cpp.o" \
-"CMakeFiles/Contest.dir/lib/base/Day.cpp.o" \
 "CMakeFiles/Contest.dir/days/day6/Day6.cpp.o" \
-"CMakeFiles/Contest.dir/days/Day7.cpp.o"
+"CMakeFiles/Contest.dir/days/day7/Day7.cpp.o"
 
 # External object files for target Contest
 Contest_EXTERNAL_OBJECTS =
 
 Contest: CMakeFiles/Contest.dir/main.cpp.o
+Contest: CMakeFiles/Contest.dir/lib/input/Input.cpp.o
+Contest: CMakeFiles/Contest.dir/lib/base/Day.cpp.o
 Contest: CMakeFiles/Contest.dir/days/day1/Day1.cpp.o
 Contest: CMakeFiles/Contest.dir/days/day2/Day2.cpp.o
 Contest: CMakeFiles/Contest.dir/days/day3/Day3.cpp.o
 Contest: CMakeFiles/Contest.dir/days/day4/Day4.cpp.o
-Contest: CMakeFiles/Contest.dir/lib/input/Input.cpp.o
 Contest: CMakeFiles/Contest.dir/days/day5/Day5.cpp.o
-Contest: CMakeFiles/Contest.dir/lib/base/Day.cpp.o
 Contest: CMakeFiles/Contest.dir/days/day6/Day6.cpp.o
-Contest: CMakeFiles/Contest.dir/days/Day7.cpp.o
+Contest: CMakeFiles/Contest.dir/days/day7/Day7.cpp.o
 Contest: CMakeFiles/Contest.dir/build.make
 Contest: CMakeFiles/Contest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sergey.smykovskyi/Personal/adventofcode/Contest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Contest"

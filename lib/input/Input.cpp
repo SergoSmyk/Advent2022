@@ -9,7 +9,7 @@ vector<string> Input::readFile() {
     inputFile.open("input.txt");
     if (inputFile.is_open() ) {
         while (inputFile) {
-            string line;
+            string line = "";
             getline(inputFile, line);
             if (!line.empty()) {
                 lines.push_back(line);

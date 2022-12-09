@@ -129,30 +129,6 @@ Contest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/build
 .PHONY : Contest/fast
 
-days/Day7.o: days/Day7.cpp.o
-.PHONY : days/Day7.o
-
-# target to build an object file
-days/Day7.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/Day7.cpp.o
-.PHONY : days/Day7.cpp.o
-
-days/Day7.i: days/Day7.cpp.i
-.PHONY : days/Day7.i
-
-# target to preprocess a source file
-days/Day7.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/Day7.cpp.i
-.PHONY : days/Day7.cpp.i
-
-days/Day7.s: days/Day7.cpp.s
-.PHONY : days/Day7.s
-
-# target to generate assembly for a file
-days/Day7.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/Day7.cpp.s
-.PHONY : days/Day7.cpp.s
-
 days/day1/Day1.o: days/day1/Day1.cpp.o
 .PHONY : days/day1/Day1.o
 
@@ -297,6 +273,30 @@ days/day6/Day6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day6/Day6.cpp.s
 .PHONY : days/day6/Day6.cpp.s
 
+days/day7/Day7.o: days/day7/Day7.cpp.o
+.PHONY : days/day7/Day7.o
+
+# target to build an object file
+days/day7/Day7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day7/Day7.cpp.o
+.PHONY : days/day7/Day7.cpp.o
+
+days/day7/Day7.i: days/day7/Day7.cpp.i
+.PHONY : days/day7/Day7.i
+
+# target to preprocess a source file
+days/day7/Day7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day7/Day7.cpp.i
+.PHONY : days/day7/Day7.cpp.i
+
+days/day7/Day7.s: days/day7/Day7.cpp.s
+.PHONY : days/day7/Day7.s
+
+# target to generate assembly for a file
+days/day7/Day7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Contest.dir/build.make CMakeFiles/Contest.dir/days/day7/Day7.cpp.s
+.PHONY : days/day7/Day7.cpp.s
+
 lib/base/Day.o: lib/base/Day.cpp.o
 .PHONY : lib/base/Day.o
 
@@ -378,9 +378,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Contest"
-	@echo "... days/Day7.o"
-	@echo "... days/Day7.i"
-	@echo "... days/Day7.s"
 	@echo "... days/day1/Day1.o"
 	@echo "... days/day1/Day1.i"
 	@echo "... days/day1/Day1.s"
@@ -399,6 +396,9 @@ help:
 	@echo "... days/day6/Day6.o"
 	@echo "... days/day6/Day6.i"
 	@echo "... days/day6/Day6.s"
+	@echo "... days/day7/Day7.o"
+	@echo "... days/day7/Day7.i"
+	@echo "... days/day7/Day7.s"
 	@echo "... lib/base/Day.o"
 	@echo "... lib/base/Day.i"
 	@echo "... lib/base/Day.s"

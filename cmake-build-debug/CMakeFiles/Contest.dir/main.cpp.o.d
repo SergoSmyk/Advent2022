@@ -436,4 +436,6 @@ CMakeFiles/Contest.dir/main.cpp.o: \
   /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day5/../../lib/base/Day.h \
   /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day5/../../lib/base/../../lib/input/Input.h \
   /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day6/Day6.h \
-  /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day6/../../lib/base/Day.h
+  /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day6/../../lib/base/Day.h \
+  /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day7/Day7.h \
+  /Users/sergey.smykovskyi/Personal/adventofcode/Contest/days/day7/../../lib/base/Day.h
