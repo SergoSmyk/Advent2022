@@ -8,4 +8,4 @@ add_executable(Contest main.cpp
         days/day2/Day2.cpp days/day2/Day2.h
         days/day3/Day3.cpp days/day3/Day3.h
         days/day4/Day4.cpp days/day4/Day4.h
-        lib/input/Input.cpp lib/input/Input.h days/day5/Day5.cpp days/day5/Day5.h lib/base/Day.cpp lib/base/Day.h)
+        lib/input/Input.cpp lib/input/Input.h days/day5/Day5.cpp days/day5/Day5.h lib/base/Day.cpp lib/base/Day.h days/day6/Day6.cpp days/day6/Day6.h days/Day7.cpp days/Day7.h)

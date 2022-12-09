@@ -27,3 +27,4 @@ optional<long> Day::readNextNumber() {
 
     return stol(digits.data());
 }
+

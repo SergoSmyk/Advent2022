@@ -7,25 +7,34 @@
 
 #include "../../lib/input/Input.h"
 #include <optional>
+#include <set>
 
 using namespace std;
 
 class Day {
+private:
+    vector<string> allLines;
+    vector<string>::iterator linesIterator;
+    string::iterator characterIterator;
+protected:
+
+    static void printResult(const string& result) {
+        cout << "Result : " << result << "\n";
+    }
+
 public:
     virtual void findResultPart1() = 0;
     virtual void findResultPart2() = 0;
 
     optional<long> readNextNumber();
 
+    vector<string> readAllLines() { return allLines; };
+
     Day() {
         allLines = Input().readFile();
         linesIterator = allLines.begin();
         characterIterator = linesIterator->begin();
     }
-private:
-    vector<string> allLines;
-    vector<string>::iterator linesIterator;
-    string::iterator characterIterator;
 };
 
 
